@@ -1,0 +1,82 @@
+.implement {
+	margin: 1em;
+	padding: 1em;
+}
+
+.header-buttons {
+	margin: 1px;
+	padding: 5px;
+	display: block;
+}
+
+.button-prev {
+	text-align: left;
+}
+
+.button-mark {
+	text-align: center;
+}
+
+.button-next {
+	text-align: right;
+}
+
+.question_meta {
+	margin-top: 1em;
+	padding: 5px;
+}
+
+.qnum {
+	margin: 1ex;
+}
+
+.qclass {
+	margin: 1ex;
+
+}
+
+.reserve {
+	margin: 1ex;
+}
+
+.question_text {
+	width: 100%;
+	padding: 0.5em 1em;
+    margin: 0 0 1em 0;
+    border: double 5px #67c5ff;
+}
+
+.question_text p{
+    margin: 0; 
+	padding: 0;
+}
+
+.select_buttons{
+	text-align: center;
+}
+
+.select_buttons input{
+	width: 90%;
+	margin: 1ex;
+}
+
+.btn-flat-border {
+	display: inline-block;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	background: white;
+	color: #67c5ff;
+	border: solid 2px #67c5ff;
+	border-radius: 3px;
+	transition: .4s;
+}
+
+.btn-flat-border:hover {
+	background: #67c5ff;
+	color: white;
+}
+
+.btn-flat-border.selected {
+	background: #67c5ff;
+	color: white;
+}
